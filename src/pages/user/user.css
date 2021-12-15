@@ -1,0 +1,156 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userAddButton{
+    width: 80px;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShow{
+    flex: 1;
+    box-shadow: 0px -2px 18px -4px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.userUpdate{
+    flex: 2;
+    box-shadow: 0px -2px 18px -4px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.userShowData{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.userShowImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.userShowDescription{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.userShowProffesion{
+    font-weight: 300;
+    color: #555;
+}
+
+
+.userShowDetails, .userShowContact{
+    display: flex;
+    flex-direction: column;
+}
+
+.userShowTitleDetails, .userShowTitleContact {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(168, 168, 168);
+    margin-top: 15px;
+    letter-spacing: -1px;
+}
+
+.userShowItem{
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 300;
+}
+
+.userShowIcon{
+    margin: 0;
+    margin-right: 10px;
+    font-size: 16px !important;
+    color: rgb(44, 44, 44);
+}
+
+/* USER UPDATE */
+.userUpdateTitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.userUpdateWrapper{
+    display: flex;
+    margin: 20px 0;
+}
+
+.userUpdateForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userUpdateFormLeft{
+    flex: 3;
+    margin-right: 5px;
+}
+
+.userUpdateFormRight{
+    flex: 1;
+    margin-left: 5px;
+}
+
+
+.userUpdateFormRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.userUpdateImage{
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateImg{
+    border-radius: 15px;
+}
+
+.upserUpdateIcon{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.userUpdateBTN{
+    color: wheat;
+    background-color: darkblue;
+    padding: 8px 30px;
+    width: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+    font-weight: 600;
+}
+
+.userUpdateBTN:hover{
+    background-color: rgb(1, 1, 94);
+}

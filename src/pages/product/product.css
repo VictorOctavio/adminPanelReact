@@ -1,0 +1,158 @@
+.Product{
+    flex: 4;
+    padding: 20px;
+}
+
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productTitle{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.newProductBtn{
+    background-color: tomato;
+    border: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productTop{
+    display: flex;
+}
+
+.productTopLeft, .productTopRight{
+    flex: 1;
+}
+
+.productTopRight{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px -2px 18px -4px rgba(0, 0, 0, 0.164);
+}
+
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.productInfoTop{
+    display: flex;
+    align-items: center;
+}
+
+.productName{
+    font-weight: 600;
+}
+
+.productTopBottom{
+    margin-top: 10px;
+}
+
+.productInfoItem{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfoValue{
+    font-weight: 300;
+}
+
+.productBottom{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px -2px 18px -4px rgba(0, 0, 0, 0.164);
+}
+
+.productForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productFormLeft{
+
+
+}
+
+.productFormTitle{
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.productFormInput{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    padding: 5px;
+    color: #b4b4b4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.productFormSelect{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+}
+
+.productFormLabel{
+    color: #555;
+    font-weight: 600;
+}
+
+.productFormSelect{
+    background: inherit;
+    border-color: rgb(231, 231, 231);
+    /* font-weight: 300; */
+}
+
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.productFormUpload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productFormImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.productFormIcon{
+    cursor: pointer;
+}
+
+.productFormBTN{
+    background-color: darkblue;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.productFormIcon{
+    color: darkblue;
+}

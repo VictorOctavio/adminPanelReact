@@ -1,0 +1,57 @@
+.newUser{
+    flex: 4;
+    padding: 20px;
+}
+
+.newUserTitle{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.newUserForm{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserInputItem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 50%
+}
+
+.newUserLabel {
+    text-transform: capitalize;
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 0
+}
+.genderOptions{
+    font-weight: 300;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+.genderOptions > label{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.newUserSelect{
+    padding: 10px 5px;
+    background: inherit;
+    border: 1px solid #e5e5e5;
+    margin-right: 40px
+}
+
+.sumbitCreate{
+    padding: 8px 30px;
+    background-color: darkblue;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
