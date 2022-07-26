@@ -13,13 +13,13 @@ export default function WidgetLg() {
 
     return (
         <div className="widgetLg">
-            <div className="widgetLgTitle">Lastest Transaction</div>
+            <div className="widgetLgTitle">Transacciones Recientes</div>
             <table className="widgetLgTable">
                 <tr className="widgetLgTr">
-                    <th className="widgetLgTh">Customer</th>
-                    <th className="widgetLgTh">Date</th>
-                    <th className="widgetLgTh">Amount</th>
-                    <th className="widgetLgTh">Status</th>
+                    <th className="widgetLgTh">Cliente</th>
+                    <th className="widgetLgTh">Fecha</th>
+                    <th className="widgetLgTh">Monto</th>
+                    <th className="widgetLgTh">Pago</th>
                 </tr>
 
                 <tr className="widgetLgTr">
@@ -27,7 +27,7 @@ export default function WidgetLg() {
                     <td className="widgetLgTd customer">
                          <img src={woman} alt="" className="widgetLgTrImg" />
                          <span className="widgetLgCustomerTitle">
-                         Mia Watson
+                         Mia Acosta
                         </span>
                     </td>
                     <td className="widgetLgTd">23 May 2021</td>

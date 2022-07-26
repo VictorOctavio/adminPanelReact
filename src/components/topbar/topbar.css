@@ -13,6 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    overflow: hidden;
 }
 
 .logo{
@@ -60,4 +62,71 @@
     border-radius: 50%;
     cursor: pointer;
     object-fit: cover;
+}
+
+/* WINDOW LATERAL NOTIFICATIONS */
+.topbarNotificationWindow{
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 139, 0.504);
+    padding: 0 5px;
+    right: -30%;
+    padding-top: 20px;
+    transition: .5s ease-in-out;
+}
+.topbarNotificationWindow.active{
+    right: 0%;
+}
+
+.topbarNotificationWindow .topbarwindowClose{
+    color:  white;
+    background-color: inherit;
+    border: 1px solid rgba(204, 204, 204, 0);
+    transition: .3s;
+    padding: 0px 10px;
+    border-radius: 3px;
+    font-size: 35px;
+}
+
+
+.topbarNotificationWindow .topbarwindowClose:hover{
+    border-color: white;
+    cursor: pointer;
+}
+
+.topbarNotificationWindow .topbarnotifications{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    right: 100%;
+}
+
+.topbarnotifications .topbarnotification{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    transition: .3s;
+}
+
+
+.topbarnotifications .topbarnotification:hover{
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.topbarnotifications .topbarnotification h4{
+    color: darkblue;
+    display: flex;
+    align-items: center;
+}
+
+.topbarnotifications .topbarnotification span{
+    font-weight: 800;
+    text-align: right;
+    padding-right: 10px;
 }

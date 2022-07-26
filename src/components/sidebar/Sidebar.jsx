@@ -17,11 +17,11 @@ export default function Sidebar() {
             </NavLink>
 
             <div className="sidebarItem">
-              <Timeline className="sidebarIcon"/> Analytics
+              <Timeline className="sidebarIcon"/> Analiticas
             </div>
             
             <div className="sidebarItem">
-              <TrendingUp className="sidebarIcon"/> SaleS
+              <TrendingUp className="sidebarIcon"/> Ventas
             </div>
           </div>
         </div>
@@ -37,14 +37,14 @@ export default function Sidebar() {
             </NavLink>
    
             <NavLink to="/products" className="sidebarItem">
-              <Storefront className="sidebarIcon"/> Products
+              <Storefront className="sidebarIcon"/> Productos
             </NavLink>
       
             <div className="sidebarItem">
-              <AttachMoneySharp className="sidebarIcon"/> Transactions
+              <AttachMoneySharp className="sidebarIcon"/> Transacciones
             </div>
             <div className="sidebarItem">
-            <Report className="sidebarIcon"/> Reports
+            <Report className="sidebarIcon"/> Reportes
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Sidebar() {
               <DynamicFeed className="sidebarIcon"/> Feedback
             </div>
             <div className="sidebarItem">
-              <ChatBubbleOutline className="sidebarIcon"/> Messages
+              <ChatBubbleOutline className="sidebarIcon"/> Mensajes
             </div>
           </div>
         </div>
@@ -73,13 +73,13 @@ export default function Sidebar() {
           <h3 className="sidebarTitle">Staff</h3>
           <div className="sidebarList">
             <div className="sidebarItem">
-              <Work className="sidebarIcon"/> Manege
+              <Work className="sidebarIcon"/> Manejo
             </div>
             <div className="sidebarItem">
-              <Timeline className="sidebarIcon"/> Analytics
+              <Timeline className="sidebarIcon"/> Analiticas
             </div>
             <div className="sidebarItem">
-              <Report className="sidebarIcon"/> Reports
+              <Report className="sidebarIcon"/> Reportes
             </div>
           </div>
         </div>

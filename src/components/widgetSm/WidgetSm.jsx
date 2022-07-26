@@ -11,7 +11,7 @@ const man2 = 'https://i.pinimg.com/736x/17/80/4c/17804c24a2676ba5e3cf2c3ef84c7f6
 
   return (
     <div className="widgetSm">
-      <div className="widgetSmTitle">New Join Members</div>
+      <div className="widgetSmTitle">Nuevos Miembros</div>
 
       <div className="widgetSmUserList">
         <div className="widgetSmUser">
